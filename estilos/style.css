@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@500&family=Tiro+Telugu:ital@1&display=swap");
+/*-------------------------------Css Index-----------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  opacity: 0.8;
+}
+
+nav {
+  z-index: 30;
+}
+
+.menu__navegacion {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 12px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  border-radius: 200px;
+  width: 88px;
+  height: 88px;
+}
+
+.portada {
+  height: auto;
+}
+
+.imgPortada {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1 {
+  margin-top: 170px;
+  margin-left: 500px;
+  z-index: 10;
+  color: white;
+  position: absolute;
+  font-size: 390%;
+}
+
+svg {
+  display: flex;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+h2 {
+  margin-top: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  width: 50%;
+  height: 35rem;
+  margin-top: 5rem;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 180px);
+  margin-left: 30rem;
+  grid-row-gap: 2rem;
+}
+
+.grillaFotos {
+  width: 15rem;
+}
+
+.ul__footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.li__footer {
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+}
+
+/*---------------------------------Css Historia----------------------------------*/
+.bodyHistoria {
+  background-color: grey;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 4rem;
+  font-family: "Crimson Text", serif;
+}
+
+.copia {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.textoPrincipal {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 50rem;
+       column-gap: 50rem;
+  height: 10rem;
+  font-size: 1.5rem;
+  margin-top: 10rem;
+  margin-left: 1rem;
+  font-family: "Tiro Telugu", serif;
+}
+
+iframe {
+  position: absolute;
+  margin-left: 40rem;
+  margin-top: -8rem;
+}
+
+.separador {
+  margin-top: 20rem;
+}
+
+.miFooter {
+  background-color: black;
+  height: 6rem;
+}
+
+.miUele {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.miElei {
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+}
+
+/*---------------------------------Css Productos-----------------------------*/
+.bodyProductos {
+  background-color: #fafafa;
+}
+
+.centrado {
+  margin-top: -25rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.centradoDos, .centradoParrafo {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.cartaUno, .cartaDos, .cartaTres {
+  border: 3px solid #ddd;
+  width: 19rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border-radius: 1%;
+  background-color: #fff;
+}
+
+.contenedorCartas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.imagenUno {
+  width: 18.7rem;
+  height: 18.7rem;
+}
+
+.tiutloCarta, .subtituloCarta, .parrafoCarta, .botonCarta {
+  margin-bottom: 1rem;
+}
+
+.tituloCarta {
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.cartaUno:hover, .cartaDos:hover, .cartaTres:hover {
+  box-shadow: 3px 4px 8px rgb(53, 52, 52);
+  transition: 1s;
+}
+
+.cartaTres {
+  margin-right: 2rem;
+}
+
+.botonCarta {
+  border: none;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 7%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.botonCarta:hover {
+  color: #fff;
+  background-color: rgb(40, 173, 40);
+}
+
+.footerProductos {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+/*------------------------------------Css Planos-----------------------------*/
+.tituloPlano {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cartaPlanos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 7rem;
+  padding-bottom: 3rem;
+}
+
+.imagenPlanos {
+  width: 30rem;
+  height: 30rem;
+  border-bottom: 1px solid rgb(87, 87, 87);
+}
+
+.centradoPlano {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.planoUno, .planoDos, .planoTres {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/*----------------------------------Css Contacto------------------------------------*/
+.formularioContacto {
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.parrafoFormulario {
+  text-align: center;
+  font-size: 2.1rem;
+  border-bottom: 1px solid black;
+  width: 40rem;
+  margin-left: 33%;
+  padding-bottom: 1rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-left: 37%;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.inputNombre {
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.inputContacto {
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.inputMensaje {
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+
+.inputBoton {
+  height: 3rem;
+}/*# sourceMappingURL=style.css.map */
